@@ -9,8 +9,8 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the CSV datasets once at startup
-df = pd.read_csv(os.path.join(script_dir, "Flight_Schedule.csv"))
-status_df = pd.read_csv(os.path.join(script_dir, "Flight_Status.csv"))
+df: pd.DataFrame = pd.read_csv(os.path.join(script_dir, "Flight_Schedule.csv"))
+status_df: pd.DataFrame = pd.read_csv(os.path.join(script_dir, "Flight_Status.csv"))
 
 app = FastAPI(title="Dummy Flight API")
 

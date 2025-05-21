@@ -15,10 +15,10 @@ class FlightStatusToolInputs(BaseModel):
 
 
 class FlightSearchTool(BaseTool):
-    name = "Flight Search Tool"
-    description = "Search for flights from an origin to a destination on a given date"
+    name: str = "Flight Search Tool"
+    description: str = "Search for flights from an origin to a destination on a given date"
     args_schema: Optional[ArgsSchema] = FlightSearchToolInputs
-    return_direct = True
+    return_direct: bool = True
 
     def _run(self, origin: str, destination: str, date: str) -> str:
         url = f"http://127.0.0.1:8000/flights?origin={origin}&destination={destination}&date={date}"
@@ -33,10 +33,10 @@ class FlightSearchTool(BaseTool):
 
 
 class FlightStatusTool(BaseTool):
-    name = "Flight Status Tool"
-    description = "Get the status of a flight on a given date"
+    name: str = "Flight Status Tool"
+    description: str = "Get the status of a flight on a given date"
     args_schema: Optional[ArgsSchema] = FlightStatusToolInputs
-    return_direct = True
+    return_direct: bool = True
 
     def _run(self, flight_number: str) -> str:
         url = f"http://127.0.0.1:8000/flight-status/{flight_number}"
