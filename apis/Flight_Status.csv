@@ -1,0 +1,2765 @@
+flightNumber,status
+1003,Landed
+1004,Landed
+1005,Diverted
+1006,Cancelled
+1007,Boarding
+1008,Cancelled
+1009,Diverted
+101,Cancelled
+102,On Time
+1027,Landed
+1028,On Time
+103,Delayed
+1035,Cancelled
+1036,In Air
+104,Landed
+1041,Landed
+1042,Delayed
+1043,Delayed
+1044,Boarding
+1045,Cancelled
+1046,Cancelled
+1047,In Air
+1048,Delayed
+105,On Time
+1056,In Air
+1057,Delayed
+1059,Delayed
+106,Boarding
+1060,In Air
+1061,Diverted
+1063,Boarding
+1068,Cancelled
+1069,In Air
+107,Delayed
+1071,Landed
+1072,Landed
+1073,Diverted
+1074,In Air
+1075,Cancelled
+1076,Diverted
+1077,On Time
+1078,Diverted
+108,On Time
+109,Diverted
+1092,Cancelled
+1093,Delayed
+1094,Delayed
+1096,On Time
+110,Delayed
+1102,Boarding
+111,On Time
+112,In Air
+1124,Cancelled
+1125,Landed
+1126,On Time
+1127,Diverted
+1128,Delayed
+1129,Delayed
+113,Landed
+1130,Cancelled
+114,Landed
+115,In Air
+116,Landed
+117,In Air
+1174,Delayed
+118,Landed
+119,Delayed
+120,Boarding
+1206,Delayed
+121,In Air
+1211,In Air
+1212,On Time
+1214,Delayed
+1215,Delayed
+1216,Boarding
+1217,Landed
+1218,In Air
+1219,In Air
+122,On Time
+1220,In Air
+1221,In Air
+1223,Delayed
+1226,Diverted
+1227,Delayed
+1228,In Air
+1229,In Air
+123,In Air
+1233,Cancelled
+1234,Boarding
+1235,Diverted
+1236,Cancelled
+1237,Boarding
+1238,Landed
+1239,Delayed
+124,On Time
+1241,Cancelled
+1245,Boarding
+1248,Diverted
+125,In Air
+126,Boarding
+1267,Cancelled
+1268,Cancelled
+1269,In Air
+127,Delayed
+1270,In Air
+128,Delayed
+129,Diverted
+130,Cancelled
+1305,Cancelled
+131,Diverted
+1311,In Air
+1314,Diverted
+1315,Boarding
+1316,Cancelled
+132,On Time
+1321,Delayed
+1322,Diverted
+1324,Landed
+1325,Boarding
+1328,On Time
+1329,On Time
+133,On Time
+1334,Delayed
+1335,Diverted
+134,Delayed
+135,Delayed
+1354,Boarding
+1355,Landed
+1358,Diverted
+1359,Landed
+136,On Time
+137,Diverted
+138,Cancelled
+139,Delayed
+140,Landed
+141,Delayed
+142,On Time
+1421,Landed
+1422,In Air
+1423,Cancelled
+1424,Delayed
+1425,Landed
+1426,Landed
+1427,Boarding
+143,Cancelled
+144,In Air
+1446,In Air
+145,In Air
+1451,Delayed
+1452,Delayed
+1453,Diverted
+1454,Boarding
+1455,Delayed
+1458,Boarding
+1459,Landed
+146,On Time
+147,Delayed
+1472,Landed
+1473,Delayed
+1475,Cancelled
+1476,Boarding
+1477,Delayed
+1478,On Time
+148,Landed
+149,On Time
+150,Diverted
+151,Cancelled
+1516,Landed
+1517,On Time
+1518,Landed
+1519,Cancelled
+152,Cancelled
+1526,Boarding
+1527,Cancelled
+1528,Diverted
+1529,Delayed
+153,Boarding
+1531,Diverted
+1532,On Time
+1533,In Air
+1534,Diverted
+1535,In Air
+1536,On Time
+1538,Cancelled
+1539,Diverted
+154,Diverted
+1543,Landed
+155,Diverted
+1558,Landed
+1559,Cancelled
+156,Diverted
+1562,In Air
+1563,Diverted
+1564,Diverted
+1565,Delayed
+1567,On Time
+1568,Boarding
+157,Delayed
+1572,Boarding
+1573,On Time
+1576,Boarding
+1578,Cancelled
+158,Diverted
+1582,Boarding
+1583,Diverted
+1585,Cancelled
+159,Delayed
+16,On Time
+160,Cancelled
+1602,Delayed
+161,Diverted
+162,On Time
+1620,Landed
+1621,Diverted
+1622,Diverted
+1624,Cancelled
+1628,Diverted
+1629,Landed
+163,Boarding
+164,On Time
+165,Boarding
+166,Landed
+167,On Time
+168,In Air
+169,Cancelled
+170,On Time
+1709,In Air
+171,Cancelled
+1710,Delayed
+1711,Diverted
+1712,Boarding
+172,Landed
+1720,Cancelled
+1721,On Time
+1722,Diverted
+1723,Diverted
+1724,Boarding
+1725,Cancelled
+1727,Delayed
+1728,Boarding
+1729,Boarding
+173,Boarding
+1731,Diverted
+174,In Air
+175,Diverted
+176,Boarding
+1761,Delayed
+1762,Landed
+1769,On Time
+177,Boarding
+178,Landed
+179,Delayed
+180,Diverted
+1801,On Time
+1802,In Air
+181,Landed
+182,Diverted
+1825,Landed
+1826,Boarding
+1828,Diverted
+1829,In Air
+183,Cancelled
+184,Diverted
+185,Delayed
+186,Landed
+187,Landed
+188,On Time
+1882,Boarding
+189,Boarding
+190,On Time
+191,Delayed
+1911,Cancelled
+1912,Diverted
+192,Cancelled
+193,Delayed
+194,In Air
+195,In Air
+196,Landed
+197,On Time
+198,On Time
+1982,In Air
+1983,Boarding
+199,Delayed
+201,Landed
+2011,Delayed
+2012,In Air
+2013,Landed
+2014,Boarding
+2017,On Time
+2018,Cancelled
+2019,Delayed
+202,Boarding
+2021,Diverted
+2022,Delayed
+2023,In Air
+2024,Delayed
+2025,Delayed
+2026,Delayed
+2027,Delayed
+2028,Cancelled
+2029,Diverted
+203,Landed
+2031,Diverted
+2032,In Air
+2033,Boarding
+2034,In Air
+2035,Boarding
+2036,Cancelled
+2037,Delayed
+2038,Landed
+2039,Boarding
+204,Boarding
+2041,Cancelled
+2042,In Air
+2043,In Air
+2044,Diverted
+2045,Delayed
+2046,In Air
+2047,Diverted
+2048,On Time
+2049,Delayed
+205,Cancelled
+2051,Boarding
+2052,Delayed
+2053,Delayed
+2054,Landed
+2055,Landed
+2056,In Air
+2057,Diverted
+2058,Landed
+206,Cancelled
+2061,Boarding
+2062,Boarding
+2063,Landed
+2064,Cancelled
+2065,Landed
+2066,Cancelled
+2067,In Air
+2069,Delayed
+207,In Air
+2071,Delayed
+2072,Cancelled
+2073,Landed
+2074,In Air
+2075,Landed
+2076,Cancelled
+208,Landed
+2084,In Air
+2087,Delayed
+2088,Cancelled
+209,Cancelled
+2095,Cancelled
+2096,Boarding
+210,On Time
+2101,Delayed
+2102,On Time
+2103,Delayed
+2104,Boarding
+2105,Cancelled
+2106,Boarding
+2107,On Time
+2108,Landed
+211,Cancelled
+2112,In Air
+2113,On Time
+2118,Landed
+212,Landed
+2123,Boarding
+2124,Landed
+2125,On Time
+2126,Delayed
+2127,In Air
+2128,Diverted
+2129,Diverted
+213,Boarding
+2131,Delayed
+2132,Boarding
+2133,In Air
+2134,Delayed
+2135,Delayed
+2136,On Time
+2137,Landed
+2138,Landed
+214,Delayed
+2141,In Air
+2148,On Time
+215,Cancelled
+2151,Diverted
+2152,Landed
+2155,Delayed
+2156,Boarding
+2157,Boarding
+2158,Boarding
+216,In Air
+2161,Delayed
+2162,Delayed
+2163,On Time
+2164,In Air
+2165,On Time
+2166,Delayed
+2167,Delayed
+2168,Diverted
+2169,On Time
+217,Boarding
+2171,Delayed
+2172,Cancelled
+2173,On Time
+2174,Landed
+2175,On Time
+2176,Delayed
+2177,On Time
+2178,In Air
+218,Delayed
+219,Diverted
+2192,Diverted
+2193,Boarding
+2194,Cancelled
+2195,Cancelled
+2196,Boarding
+2197,Boarding
+2198,Diverted
+2199,In Air
+220,On Time
+2201,On Time
+2204,Cancelled
+221,Diverted
+2210,Cancelled
+2211,Diverted
+2212,Boarding
+2213,Diverted
+2214,Delayed
+2215,Cancelled
+2216,On Time
+222,Diverted
+2228,Boarding
+223,In Air
+224,Delayed
+2246,Boarding
+225,In Air
+2256,Delayed
+2257,In Air
+2258,On Time
+226,Landed
+2263,Cancelled
+227,Diverted
+2273,On Time
+228,Cancelled
+2289,Cancelled
+229,In Air
+2297,Delayed
+2298,Landed
+2299,Cancelled
+230,On Time
+2305,Boarding
+2306,Diverted
+231,On Time
+2314,Cancelled
+2315,Landed
+232,Cancelled
+2322,Diverted
+2323,Boarding
+2325,Landed
+2327,Cancelled
+2328,In Air
+233,Landed
+2335,In Air
+2336,Diverted
+234,Diverted
+2345,Delayed
+2346,Delayed
+2348,Diverted
+2349,Delayed
+235,Diverted
+236,Landed
+2367,Cancelled
+237,Cancelled
+2376,In Air
+238,In Air
+2380,Cancelled
+2381,Landed
+2382,Boarding
+2383,On Time
+2386,Cancelled
+2389,On Time
+239,In Air
+2392,Boarding
+2393,In Air
+2394,In Air
+240,On Time
+2403,Cancelled
+2405,Cancelled
+2406,On Time
+2409,In Air
+241,Diverted
+2410,Diverted
+2411,Delayed
+2412,Cancelled
+2413,Boarding
+242,On Time
+2420,On Time
+2423,In Air
+2424,Boarding
+2425,Landed
+243,On Time
+2437,On Time
+2438,Boarding
+244,Delayed
+2443,Landed
+245,Delayed
+2454,Diverted
+2458,Boarding
+246,Landed
+2464,Cancelled
+2465,Diverted
+2467,Diverted
+2468,Cancelled
+2469,On Time
+247,Boarding
+2471,Cancelled
+2472,Delayed
+2473,Cancelled
+2474,Cancelled
+2475,Boarding
+248,Boarding
+2484,Diverted
+2486,In Air
+2487,On Time
+2488,Boarding
+2489,In Air
+249,Diverted
+2499,In Air
+250,Cancelled
+2501,On Time
+2502,Diverted
+2503,Delayed
+2504,Delayed
+2505,On Time
+2506,Delayed
+2507,On Time
+2508,On Time
+2509,Landed
+251,Landed
+2510,In Air
+2511,In Air
+2512,On Time
+2513,On Time
+2514,Landed
+2515,On Time
+2516,Boarding
+2517,In Air
+2518,Landed
+2519,Diverted
+252,Cancelled
+2520,Diverted
+2524,In Air
+2525,In Air
+253,In Air
+2538,Cancelled
+254,Delayed
+2541,Landed
+2548,Diverted
+255,Cancelled
+2554,Landed
+2559,Boarding
+256,On Time
+2562,Boarding
+2563,Boarding
+2564,Cancelled
+2565,Cancelled
+2566,Delayed
+257,In Air
+2571,In Air
+258,Delayed
+2586,Landed
+2587,Diverted
+2588,In Air
+259,In Air
+2591,Cancelled
+260,Boarding
+2601,On Time
+2602,In Air
+2603,Boarding
+2604,Cancelled
+2605,Landed
+2606,Landed
+2607,Boarding
+2608,Delayed
+2609,On Time
+261,Landed
+2610,In Air
+2611,Boarding
+2612,In Air
+2613,Landed
+2614,In Air
+2615,Diverted
+2616,On Time
+262,In Air
+2620,Cancelled
+2622,Delayed
+2623,Diverted
+2624,Landed
+2625,On Time
+263,Boarding
+2630,Diverted
+2637,Delayed
+264,Cancelled
+2642,Cancelled
+2643,On Time
+2644,In Air
+2645,Cancelled
+2646,Diverted
+265,Cancelled
+2652,On Time
+266,In Air
+267,Cancelled
+2672,On Time
+2676,Boarding
+2678,In Air
+2679,Delayed
+268,Landed
+2684,Diverted
+2685,In Air
+269,Cancelled
+2694,Boarding
+2695,Cancelled
+2696,In Air
+2698,On Time
+2701,Delayed
+2702,Delayed
+2704,Landed
+271,On Time
+2716,Boarding
+2719,Delayed
+271A,On Time
+272,Landed
+2724,Diverted
+2726,In Air
+2727,Delayed
+273,Diverted
+2731,Delayed
+2732,Diverted
+274,Cancelled
+2745,Diverted
+2746,On Time
+275,Landed
+2750,On Time
+2751,On Time
+2752,Landed
+2753,Diverted
+2757,Delayed
+2758,In Air
+276,Diverted
+2760,Landed
+2761,In Air
+2763,Diverted
+2764,Delayed
+2767,Cancelled
+2768,Delayed
+2769,Diverted
+277,Boarding
+2770,Cancelled
+2772,Boarding
+2773,Landed
+2774,Cancelled
+2778,In Air
+2779,On Time
+278,Diverted
+2781,In Air
+2782,Cancelled
+2783,On Time
+2789,Cancelled
+279,Diverted
+2790,Cancelled
+2797,Cancelled
+2798,Boarding
+280,Landed
+2801,On Time
+2802,In Air
+2803,On Time
+2804,Boarding
+2805,In Air
+2806,Delayed
+2807,Landed
+2808,On Time
+281,In Air
+282,Delayed
+283,Boarding
+2839,On Time
+284,Landed
+2841,On Time
+2842,Cancelled
+285,Landed
+2859,On Time
+286,Landed
+2861,Landed
+2864,On Time
+2865,Delayed
+287,Delayed
+2871,In Air
+2872,Cancelled
+2873,Cancelled
+2874,Cancelled
+2875,Landed
+2876,Diverted
+2878,On Time
+2879,Boarding
+288,Cancelled
+2886,In Air
+2887,Boarding
+289,On Time
+2891,Delayed
+2892,Delayed
+2893,On Time
+2894,On Time
+2895,Landed
+290,In Air
+2901,Delayed
+2902,Boarding
+2903,In Air
+2907,Boarding
+291,Landed
+2912,Boarding
+292,Boarding
+2923,Diverted
+2924,On Time
+2929,Delayed
+293,Landed
+2931,Boarding
+2932,Delayed
+2933,Delayed
+2934,Diverted
+2935,Boarding
+2936,Diverted
+2937,Boarding
+2938,In Air
+294,In Air
+2941,Landed
+2942,Diverted
+2943,Diverted
+2948,Landed
+295,Diverted
+296,Cancelled
+2963,Landed
+297,In Air
+2976,Boarding
+2977,Boarding
+2978,Boarding
+298,Delayed
+2981,Diverted
+2982,Delayed
+2983,On Time
+2985,In Air
+2986,Diverted
+2987,Landed
+2988,On Time
+2989,Diverted
+299,On Time
+2990,Landed
+2991,Delayed
+300,Diverted
+301,Boarding
+3016,In Air
+3017,In Air
+302,Cancelled
+3021,Boarding
+3022,Landed
+3023,Cancelled
+3024,Delayed
+3027,Landed
+3028,Delayed
+303,In Air
+304,Landed
+305,In Air
+306,In Air
+307,Boarding
+3071,In Air
+3072,In Air
+3073,Delayed
+3074,Landed
+3075,Boarding
+3076,On Time
+308,Delayed
+3083,Boarding
+3084,On Time
+309,On Time
+310,On Time
+3105,Landed
+3106,Delayed
+311,Cancelled
+312,Boarding
+313,Cancelled
+314,On Time
+315,On Time
+316,Boarding
+317,Landed
+3173,Diverted
+3174,Boarding
+3175,Delayed
+3177,Landed
+3178,Delayed
+318,On Time
+3182,On Time
+319,On Time
+320,In Air
+321,Cancelled
+3213,Diverted
+3214,Boarding
+3217,In Air
+3218,On Time
+3219,On Time
+322,On Time
+3220,Landed
+3221,On Time
+323,Cancelled
+324,Diverted
+3248,Cancelled
+325,Cancelled
+3251,Diverted
+3252,Cancelled
+3253,On Time
+3254,Cancelled
+326,In Air
+3265,On Time
+3266,On Time
+327,Cancelled
+3272,Diverted
+328,Cancelled
+3281,Cancelled
+3282,On Time
+3283,On Time
+3284,In Air
+329,Cancelled
+330,Delayed
+3301,Cancelled
+3302,Diverted
+3307,Diverted
+3309,Diverted
+331,Cancelled
+3310,In Air
+3318,On Time
+3319,Cancelled
+332,Diverted
+3320,Delayed
+3321,Landed
+3322,Diverted
+3323,Cancelled
+3324,Landed
+3325,Diverted
+3326,Cancelled
+3327,In Air
+3328,Boarding
+3329,On Time
+333,On Time
+334,Delayed
+3345,Cancelled
+3346,Boarding
+3347,In Air
+3348,Diverted
+335,Landed
+336,Landed
+337,In Air
+338,Boarding
+339,Boarding
+3403,In Air
+3404,Cancelled
+3407,Boarding
+3408,Boarding
+341,On Time
+3415,Cancelled
+3416,On Time
+3417,Landed
+3418,Delayed
+3419,Delayed
+342,On Time
+3420,Delayed
+3425,In Air
+3426,Diverted
+3427,Diverted
+3428,Boarding
+3429,Landed
+343,Landed
+3430,Landed
+3431,Delayed
+3432,Boarding
+344,Cancelled
+3449,Boarding
+345,Delayed
+3450,On Time
+3452,In Air
+3453,In Air
+3454,In Air
+3455,Landed
+3456,Boarding
+346,Boarding
+3461,Diverted
+3462,In Air
+3463,Boarding
+3464,On Time
+3465,Cancelled
+3466,Diverted
+3467,Diverted
+3468,On Time
+3469,Diverted
+347,In Air
+3471,Landed
+3472,In Air
+3474,In Air
+3477,Cancelled
+3478,Landed
+348,Diverted
+3487,Landed
+3488,Boarding
+349,Delayed
+3492,Boarding
+350,Cancelled
+3501,Cancelled
+3502,Diverted
+3505,Boarding
+3506,Delayed
+3507,Landed
+3508,Boarding
+351,On Time
+3512,Diverted
+3513,Landed
+3514,Delayed
+352,Delayed
+3521,Landed
+3522,On Time
+3523,Landed
+3524,Cancelled
+3525,On Time
+3526,Cancelled
+3527,Cancelled
+3528,On Time
+3529,On Time
+353,Delayed
+3530,Boarding
+3531,Boarding
+3532,Landed
+3533,Landed
+3534,Boarding
+3539,Boarding
+354,Cancelled
+3540,Cancelled
+3548,In Air
+3549,Diverted
+355,Cancelled
+3550,In Air
+3551,Diverted
+3552,Delayed
+3553,Diverted
+3554,On Time
+3555,On Time
+3556,Boarding
+3557,In Air
+3558,In Air
+356,Delayed
+3561,Diverted
+3562,On Time
+3563,Cancelled
+3564,Cancelled
+3565,On Time
+3566,Delayed
+3567,On Time
+3568,Boarding
+3569,In Air
+357,Cancelled
+3570,Delayed
+3571,Diverted
+3576,Cancelled
+3577,In Air
+3578,Cancelled
+3579,Cancelled
+358,Landed
+3581,On Time
+3582,Diverted
+3583,On Time
+3584,On Time
+3585,On Time
+3586,In Air
+3589,Landed
+358Z,On Time
+359,On Time
+3590,Diverted
+3591,Diverted
+3592,On Time
+3593,On Time
+3594,Cancelled
+3598,Cancelled
+360,Landed
+3603,In Air
+3604,Delayed
+3606,Landed
+3607,Cancelled
+3608,On Time
+3609,Delayed
+361,On Time
+3610,On Time
+3611,Boarding
+3612,Diverted
+362,Cancelled
+3623,Landed
+3624,Diverted
+363,In Air
+3639,In Air
+364,On Time
+3640,Landed
+3645,Delayed
+365,Delayed
+366,In Air
+367,Delayed
+368,Diverted
+3683,Cancelled
+3684,Cancelled
+3685,Diverted
+3686,In Air
+3689,Delayed
+369,In Air
+3690,Boarding
+3691,In Air
+3692,Landed
+3693,Cancelled
+3694,Cancelled
+370,Cancelled
+3706,In Air
+3707,Diverted
+3708,Delayed
+3709,Diverted
+371,On Time
+3710,Landed
+3711,Delayed
+3712,Landed
+3713,Diverted
+3714,In Air
+3715,On Time
+3716,On Time
+3717,On Time
+3718,Boarding
+3719,Cancelled
+372,Delayed
+3720,Cancelled
+3721,In Air
+3722,On Time
+3723,Delayed
+3724,On Time
+373,Delayed
+3731,Delayed
+3732,In Air
+3733,In Air
+3734,Cancelled
+3735,Boarding
+3736,Delayed
+3737,In Air
+3738,Diverted
+3739,In Air
+374,Boarding
+3741,Landed
+3742,Diverted
+3743,Cancelled
+3744,Landed
+3745,Cancelled
+3746,Cancelled
+3747,In Air
+3748,Diverted
+375,Diverted
+3751,On Time
+3752,In Air
+3753,Diverted
+3754,Boarding
+3755,In Air
+3756,Landed
+376,On Time
+377,Landed
+3777,Delayed
+378,Cancelled
+3781,Diverted
+3782,Boarding
+3783,In Air
+3784,On Time
+3785,Boarding
+3786,Diverted
+3787,On Time
+3788,Landed
+379,Delayed
+3791,Landed
+3792,Delayed
+3794,In Air
+380,On Time
+381,On Time
+382,Landed
+3827,In Air
+3828,Landed
+3829,Diverted
+383,On Time
+3830,Cancelled
+3831,Diverted
+3832,Delayed
+3834,Diverted
+384,Cancelled
+385,Landed
+386,Boarding
+3869,Cancelled
+387,Boarding
+388,On Time
+389,Cancelled
+390,Delayed
+3904,Diverted
+3906,Diverted
+391,Cancelled
+392,Cancelled
+393,Delayed
+394,Delayed
+395,Cancelled
+3955,Cancelled
+396,Boarding
+397,On Time
+398,Cancelled
+399,On Time
+400,Boarding
+401,In Air
+402,On Time
+403,In Air
+404,Diverted
+405,Delayed
+406,In Air
+407,Delayed
+408,In Air
+409,Boarding
+410,Landed
+411,Landed
+412,On Time
+413,Cancelled
+414,In Air
+415,In Air
+416,Boarding
+417,Delayed
+418,In Air
+419,Diverted
+420,Boarding
+421,Cancelled
+422,Cancelled
+423,On Time
+424,On Time
+425,Cancelled
+426,Cancelled
+427,Cancelled
+428,Diverted
+429,In Air
+43,Cancelled
+430,Delayed
+431,On Time
+432,Delayed
+433,In Air
+434,In Air
+435,Diverted
+436,Diverted
+437,On Time
+438,On Time
+439,Boarding
+440,On Time
+441,In Air
+442,Cancelled
+443,Diverted
+444,On Time
+445,Cancelled
+446,Boarding
+447,Cancelled
+448,On Time
+449,Boarding
+449A,Landed
+450,In Air
+451,Cancelled
+452,Landed
+453,Cancelled
+454,Boarding
+455,Landed
+456,Boarding
+457,Diverted
+458,In Air
+459,Boarding
+460,On Time
+461,Diverted
+462,On Time
+463,Delayed
+464,Landed
+465,Diverted
+466,Landed
+467,Cancelled
+468,Delayed
+469,Landed
+470,Diverted
+471,In Air
+472,Cancelled
+473,In Air
+474,In Air
+475,In Air
+476,On Time
+477,Boarding
+478,On Time
+479,Delayed
+480,Delayed
+481,Delayed
+482,On Time
+483,On Time
+484,Diverted
+485,On Time
+486,Diverted
+487,Diverted
+488,Landed
+489,Boarding
+490,Landed
+491,Delayed
+492,Landed
+493,On Time
+494,Diverted
+495,Diverted
+496,Delayed
+497,Boarding
+498,In Air
+499,Landed
+5001,On Time
+5002,Boarding
+5003,On Time
+5004,Boarding
+5005,On Time
+5006,In Air
+5007,Delayed
+5008,Cancelled
+5009,Landed
+501,Landed
+5011,Delayed
+5012,Boarding
+5013,Delayed
+5014,Boarding
+5015,Diverted
+5016,Cancelled
+5017,In Air
+5019,Landed
+502,Landed
+5021,Delayed
+5022,Cancelled
+5023,Diverted
+5024,Diverted
+5025,Boarding
+5026,Cancelled
+5027,Diverted
+5028,Delayed
+5029,Diverted
+503,Cancelled
+5031,In Air
+5032,On Time
+5033,Landed
+5034,Boarding
+5035,Diverted
+5036,Delayed
+5037,In Air
+5038,Diverted
+5039,In Air
+504,Diverted
+5041,In Air
+5042,Boarding
+5043,Diverted
+5044,Boarding
+5045,Landed
+5047,In Air
+505,Landed
+5055,Delayed
+5056,In Air
+5057,Cancelled
+506,On Time
+5061,In Air
+5062,Landed
+507,Cancelled
+508,On Time
+5081,Delayed
+5082,In Air
+509,Cancelled
+5097,Delayed
+5098,In Air
+510,Cancelled
+511,Boarding
+512,Cancelled
+5126,Landed
+513,Landed
+514,Landed
+515,In Air
+5153,Landed
+516,Landed
+517,Diverted
+518,On Time
+519,In Air
+520,Delayed
+521,In Air
+522,On Time
+5228,Delayed
+523,On Time
+524,On Time
+525,On Time
+526,Diverted
+527,Delayed
+528,Cancelled
+529,Delayed
+530,Boarding
+5301,Diverted
+5302,Delayed
+5303,Delayed
+5304,Diverted
+5305,On Time
+5306,On Time
+5307,In Air
+5309,In Air
+531,Diverted
+5311,In Air
+5312,Boarding
+5313,Boarding
+5316,Boarding
+5317,Cancelled
+5318,Landed
+5319,Boarding
+532,Diverted
+5321,In Air
+5322,Boarding
+5323,On Time
+5324,Cancelled
+5325,Cancelled
+5326,Diverted
+5327,In Air
+5328,Landed
+5329,Landed
+533,In Air
+5331,Diverted
+5332,Delayed
+5334,Diverted
+5335,Landed
+5336,In Air
+5337,Boarding
+5339,Boarding
+534,On Time
+5341,Delayed
+5342,Boarding
+5343,On Time
+5344,On Time
+5345,Landed
+5346,Cancelled
+5347,Landed
+5348,Diverted
+5349,Delayed
+535,Cancelled
+5351,Boarding
+5352,Landed
+5353,Cancelled
+5354,On Time
+5356,Landed
+5357,Landed
+536,In Air
+5365,In Air
+537,Boarding
+5372,Boarding
+5373,Landed
+5374,On Time
+5375,In Air
+5376,Boarding
+5377,On Time
+5378,Boarding
+5379,On Time
+538,Landed
+5381,Landed
+5382,Cancelled
+5383,On Time
+5384,Boarding
+5385,Landed
+5386,Landed
+5387,In Air
+5388,Cancelled
+5389,Boarding
+539,Landed
+5391,Boarding
+5393,Cancelled
+5394,Boarding
+5395,Cancelled
+5396,On Time
+540,Cancelled
+5401,Boarding
+5409,Landed
+541,Cancelled
+542,Cancelled
+5428,Boarding
+543,Boarding
+544,Cancelled
+5448,Cancelled
+5449,In Air
+545,In Air
+546,Landed
+547,Boarding
+548,Diverted
+549,In Air
+550,Cancelled
+551,Delayed
+552,On Time
+553,Landed
+5532,Boarding
+5533,Cancelled
+554,Delayed
+555,Cancelled
+556,Delayed
+557,Landed
+558,Boarding
+559,Delayed
+560,Diverted
+561,On Time
+562,In Air
+563,On Time
+564,Landed
+565,In Air
+566,Boarding
+567,In Air
+568,Delayed
+569,On Time
+570,Diverted
+571,In Air
+572,Boarding
+573,Boarding
+574,In Air
+575,On Time
+576,In Air
+577,Diverted
+578,On Time
+579,Boarding
+580,Cancelled
+581,In Air
+582,Cancelled
+583,Cancelled
+584,Cancelled
+585,Landed
+586,Delayed
+587,Landed
+588,Delayed
+589,In Air
+590,Cancelled
+591,Delayed
+5912,Landed
+5913,Cancelled
+5914,Boarding
+5915,In Air
+5916,Diverted
+5917,Boarding
+592,Diverted
+5922,Delayed
+5925,Boarding
+5926,Delayed
+593,In Air
+594,Landed
+595,Delayed
+596,Landed
+597,Boarding
+598,Delayed
+5981,On Time
+5982,Cancelled
+5983,In Air
+5984,On Time
+5988,Landed
+5989,Landed
+599,Landed
+5991,In Air
+5992,Boarding
+5993,Boarding
+5994,Boarding
+5997,In Air
+5998,In Air
+6001,Boarding
+6002,Cancelled
+6004,On Time
+6005,Diverted
+6006,On Time
+6007,Cancelled
+6008,Delayed
+6009,Cancelled
+601,Boarding
+6011,On Time
+6012,Diverted
+6013,Landed
+6014,Cancelled
+6015,In Air
+6017,Landed
+602,Diverted
+603,In Air
+604,Delayed
+605,Boarding
+6050,Landed
+6052,Landed
+6053,In Air
+6054,Cancelled
+6055,Landed
+6056,Boarding
+606,Delayed
+6066,In Air
+6067,In Air
+6068,On Time
+6069,Boarding
+607,In Air
+6073,Diverted
+6074,Delayed
+6079,Delayed
+608,In Air
+6080,On Time
+609,Cancelled
+6097,In Air
+6098,Landed
+610,Cancelled
+6104,Boarding
+6105,Diverted
+6107,Cancelled
+611,Diverted
+6113,Landed
+6114,Diverted
+6115,In Air
+6116,Delayed
+6117,Boarding
+612,Landed
+6123,Delayed
+6124,On Time
+6126,Landed
+6128,Diverted
+6129,Delayed
+613,Landed
+6131,In Air
+6132,Boarding
+6133,On Time
+6134,Landed
+6135,Boarding
+6136,Landed
+6137,Boarding
+6138,Diverted
+614,On Time
+6141,Boarding
+6142,Cancelled
+6144,Boarding
+6145,Landed
+6146,Boarding
+6147,On Time
+6148,In Air
+615,Boarding
+6151,Delayed
+6152,Landed
+6153,Diverted
+6154,Cancelled
+6155,Diverted
+6156,Delayed
+6157,Cancelled
+6158,Delayed
+6159,Boarding
+616,Diverted
+6161,Cancelled
+6162,In Air
+6168,On Time
+6169,On Time
+617,On Time
+6171,On Time
+6172,Landed
+6173,Cancelled
+6174,Boarding
+6175,Landed
+6176,Diverted
+6177,On Time
+6178,Cancelled
+6179,Landed
+618,Cancelled
+6181,Diverted
+6182,Diverted
+6183,Boarding
+6184,Delayed
+6185,Delayed
+6186,In Air
+6187,Delayed
+6188,Diverted
+619,On Time
+6193,Boarding
+6194,Cancelled
+6197,On Time
+6198,In Air
+620,Delayed
+6201,Landed
+6202,Diverted
+6209,Cancelled
+621,Diverted
+6211,Diverted
+6212,Delayed
+6213,Delayed
+6214,Landed
+6215,On Time
+6216,Delayed
+6217,Delayed
+6218,In Air
+6219,Cancelled
+622,Diverted
+6223,Cancelled
+6225,Landed
+6226,Landed
+623,Diverted
+6232,On Time
+6235,Delayed
+6236,In Air
+6237,Cancelled
+6238,Diverted
+6239,On Time
+624,Boarding
+6242,Cancelled
+6244,On Time
+6245,Diverted
+6246,Boarding
+6248,Boarding
+6249,Diverted
+625,Landed
+6250,Delayed
+6251,Diverted
+6253,Diverted
+6254,Landed
+6255,Landed
+6256,Delayed
+6257,Cancelled
+6258,Landed
+626,In Air
+6261,Diverted
+6262,On Time
+6263,In Air
+6264,Landed
+6265,On Time
+6266,Cancelled
+6267,Boarding
+6268,On Time
+6269,Cancelled
+627,Diverted
+6271,Boarding
+6272,Diverted
+6273,Cancelled
+6274,In Air
+6275,Landed
+6276,Boarding
+6279,In Air
+628,Landed
+6280,Cancelled
+6281,In Air
+6282,Delayed
+6283,Delayed
+6284,On Time
+6285,In Air
+6287,Cancelled
+6289,Diverted
+629,Boarding
+6290,On Time
+6291,Diverted
+6292,Boarding
+6298,Diverted
+630,Cancelled
+6304,Boarding
+6305,On Time
+6309,In Air
+631,On Time
+6312,Diverted
+6313,Landed
+6314,Delayed
+6315,Boarding
+6316,Cancelled
+6317,Boarding
+6318,Cancelled
+6319,Delayed
+632,On Time
+6321,Boarding
+6323,Boarding
+6324,Delayed
+6325,Cancelled
+6326,On Time
+6327,Boarding
+6328,Boarding
+6329,Cancelled
+633,Boarding
+6331,In Air
+6332,Diverted
+6334,On Time
+6335,Delayed
+6336,Landed
+6339,Delayed
+634,Landed
+6342,Diverted
+6343,Diverted
+6344,In Air
+6345,Landed
+6346,Delayed
+6347,Landed
+6348,In Air
+635,On Time
+6351,Cancelled
+6352,Boarding
+6353,In Air
+6354,Cancelled
+6355,Delayed
+6356,Landed
+6358,On Time
+6359,In Air
+636,Landed
+6361,On Time
+6362,Boarding
+6363,In Air
+6364,Delayed
+6365,Boarding
+6366,In Air
+6367,Delayed
+6369,Boarding
+637,Landed
+6371,Boarding
+6372,On Time
+6373,Boarding
+6374,Boarding
+6375,Diverted
+6376,Delayed
+6378,Boarding
+6379,Diverted
+638,On Time
+6385,On Time
+6386,Diverted
+6388,Delayed
+6389,Diverted
+639,Boarding
+640,On Time
+6401,Cancelled
+6404,Diverted
+6405,In Air
+6406,Cancelled
+6409,Landed
+641,Delayed
+6412,Cancelled
+6413,In Air
+6414,Boarding
+6417,Cancelled
+642,Diverted
+6421,Diverted
+6422,Delayed
+6423,In Air
+6425,Diverted
+6426,Diverted
+6427,On Time
+6428,On Time
+6429,In Air
+643,On Time
+6430,Boarding
+6431,On Time
+6432,Delayed
+6433,On Time
+6435,Cancelled
+6436,Boarding
+6437,Landed
+6438,Boarding
+6439,On Time
+644,On Time
+6442,Cancelled
+6443,Landed
+6444,Delayed
+6445,Boarding
+6446,In Air
+6448,Landed
+6449,Delayed
+645,Cancelled
+6455,Boarding
+6457,Boarding
+6458,Delayed
+6459,Delayed
+646,Boarding
+6467,Landed
+6468,Landed
+647,Cancelled
+6471,In Air
+6472,Cancelled
+6475,In Air
+6476,Cancelled
+6477,On Time
+648,Boarding
+6480,Diverted
+6481,Delayed
+6488,Diverted
+6489,On Time
+649,Boarding
+6491,Landed
+6492,In Air
+6494,On Time
+650,Boarding
+6505,In Air
+651,Cancelled
+6512,In Air
+6513,Cancelled
+6514,In Air
+652,Delayed
+6523,Boarding
+6527,Landed
+6528,Delayed
+6529,Diverted
+653,Cancelled
+6532,Boarding
+6533,Delayed
+6535,Diverted
+6536,Cancelled
+6537,Boarding
+6538,In Air
+6539,On Time
+654,Boarding
+655,Boarding
+6557,Cancelled
+6558,In Air
+6559,Boarding
+656,Diverted
+6568,On Time
+657,Boarding
+6571,In Air
+6572,Cancelled
+6573,Landed
+6574,On Time
+658,Landed
+6588,Landed
+659,Landed
+6597,On Time
+660,On Time
+6603,Diverted
+6605,In Air
+6606,In Air
+661,Delayed
+6612,Cancelled
+6613,Delayed
+6614,Landed
+6615,In Air
+6616,In Air
+662,In Air
+6623,Delayed
+6624,Boarding
+6629,Delayed
+663,Delayed
+6630,Delayed
+6631,Delayed
+6632,Cancelled
+6635,Cancelled
+6636,Diverted
+6637,Cancelled
+6638,Diverted
+664,In Air
+6644,Cancelled
+6645,Diverted
+6646,In Air
+665,Delayed
+667,Cancelled
+6672,Delayed
+6674,Boarding
+668,Delayed
+6682,Cancelled
+6683,Delayed
+6684,Delayed
+6685,Diverted
+669,Delayed
+6698,Cancelled
+670,Cancelled
+6702,Diverted
+6704,Landed
+671,Diverted
+6710,Landed
+6714,In Air
+6719,Diverted
+672,Landed
+6722,On Time
+6724,On Time
+673,Landed
+6733,Delayed
+674,Diverted
+6743,In Air
+6744,In Air
+6749,Landed
+675,Diverted
+6752,Cancelled
+6758,In Air
+676,In Air
+6769,In Air
+677,Boarding
+6772,Delayed
+6776,Boarding
+6779,Cancelled
+678,Boarding
+6782,In Air
+6785,Delayed
+6787,Diverted
+6789,In Air
+679,Landed
+6794,In Air
+6795,On Time
+6796,On Time
+6797,Delayed
+6798,Landed
+6799,On Time
+680,Boarding
+6801,Cancelled
+6806,Delayed
+6807,In Air
+6809,On Time
+681,On Time
+6814,Boarding
+6815,Boarding
+682,On Time
+6825,Boarding
+6827,Diverted
+6829,Cancelled
+683,Boarding
+6831,Cancelled
+6834,Landed
+6835,Cancelled
+6836,Cancelled
+6838,Boarding
+6839,Diverted
+684,Boarding
+6841,Diverted
+6842,Cancelled
+6843,Delayed
+6844,Delayed
+6845,Cancelled
+6846,In Air
+6847,Delayed
+6848,Delayed
+6849,In Air
+685,Cancelled
+6851,Diverted
+6852,Landed
+686,In Air
+6869,Delayed
+687,Delayed
+6876,In Air
+6877,Cancelled
+688,Cancelled
+6881,Diverted
+6889,Landed
+689,In Air
+6891,Boarding
+6892,Landed
+6893,On Time
+6897,Cancelled
+6899,Landed
+690,Boarding
+6904,Delayed
+6906,Landed
+6908,Boarding
+691,Diverted
+6912,Boarding
+6913,Cancelled
+6915,Delayed
+6916,Landed
+6918,In Air
+692,Boarding
+6920,Boarding
+6926,Diverted
+6927,Diverted
+6928,Delayed
+6929,Cancelled
+693,Boarding
+6932,Diverted
+6933,Diverted
+6936,Boarding
+6939,On Time
+694,In Air
+695,Delayed
+6955,Diverted
+6956,In Air
+6957,Delayed
+6958,On Time
+696,Delayed
+6965,Cancelled
+6966,Diverted
+697,Landed
+6973,Delayed
+698,Landed
+6985,Cancelled
+699,On Time
+6992,Landed
+6998,Delayed
+7001,On Time
+7002,Delayed
+701,Boarding
+702,Landed
+7024,Diverted
+7026,Delayed
+703,In Air
+704,Boarding
+705,In Air
+7050,Boarding
+7051,Diverted
+706,On Time
+707,Delayed
+708,Diverted
+709,In Air
+710,Landed
+7101,Cancelled
+7102,Cancelled
+7103,In Air
+7104,Delayed
+7105,In Air
+7106,Boarding
+7107,Cancelled
+7108,Delayed
+7109,Cancelled
+711,Diverted
+7112,Landed
+7113,Boarding
+7114,Landed
+7115,Boarding
+7116,Cancelled
+7117,Boarding
+7118,Diverted
+7119,Landed
+712,Diverted
+7121,Boarding
+7122,Boarding
+7123,In Air
+7124,Boarding
+7125,Cancelled
+7126,Diverted
+7127,Landed
+7128,In Air
+7129,On Time
+713,Cancelled
+7131,Boarding
+7132,Delayed
+7133,Boarding
+7134,Diverted
+7135,Boarding
+7136,Cancelled
+7137,In Air
+7138,Cancelled
+7139,Boarding
+714,Cancelled
+7141,Diverted
+7142,Cancelled
+7143,Delayed
+7144,Cancelled
+7145,Delayed
+7146,Boarding
+7147,Delayed
+7148,Landed
+7149,Delayed
+715,On Time
+7151,Diverted
+7152,Boarding
+7153,In Air
+7154,Landed
+7155,Landed
+7156,In Air
+7157,Landed
+7158,Boarding
+7159,In Air
+716,On Time
+7161,Boarding
+7162,Landed
+7163,Boarding
+7164,Delayed
+7165,Boarding
+7166,Boarding
+7167,Delayed
+7168,Boarding
+7169,Landed
+717,Diverted
+7171,Delayed
+7172,Cancelled
+7173,On Time
+7174,In Air
+7175,On Time
+7176,On Time
+7177,Cancelled
+7178,Cancelled
+7179,Diverted
+718,Boarding
+7181,Delayed
+7182,Boarding
+7183,Landed
+7184,Boarding
+7185,Delayed
+7186,Cancelled
+7187,On Time
+7188,Delayed
+7189,Delayed
+719,Diverted
+7191,Boarding
+7192,In Air
+7193,In Air
+7194,Landed
+7195,Landed
+7196,Cancelled
+7197,Landed
+7198,Boarding
+7199,On Time
+720,Landed
+7201,On Time
+7202,Delayed
+7203,Diverted
+7204,Cancelled
+7205,Delayed
+7206,On Time
+7207,Diverted
+7208,Boarding
+7209,In Air
+721,In Air
+7211,Delayed
+7212,Boarding
+7213,In Air
+7214,Boarding
+7215,Delayed
+7216,Landed
+7217,Diverted
+7218,Delayed
+7219,Boarding
+722,In Air
+7221,Cancelled
+7222,Cancelled
+7223,Delayed
+7224,Cancelled
+7225,Cancelled
+7226,In Air
+7227,Boarding
+7228,On Time
+7229,Landed
+723,In Air
+7231,Boarding
+7232,Diverted
+7233,Landed
+7234,Cancelled
+7235,On Time
+7236,On Time
+7237,On Time
+7238,Delayed
+7239,Cancelled
+724,On Time
+7241,Boarding
+7242,Landed
+7243,Delayed
+7244,In Air
+7245,Landed
+7246,Landed
+7247,In Air
+7248,Diverted
+7249,Delayed
+725,Landed
+7251,In Air
+7252,On Time
+7253,Cancelled
+7254,Cancelled
+7255,Diverted
+7256,Cancelled
+7257,In Air
+7258,In Air
+7259,Landed
+726,On Time
+7261,Cancelled
+7262,In Air
+7263,Cancelled
+7264,Cancelled
+7265,In Air
+7266,Boarding
+7267,Cancelled
+7268,Landed
+7269,Delayed
+727,Landed
+7271,Landed
+7272,Delayed
+7273,Delayed
+7274,Delayed
+728,Diverted
+7281,Boarding
+7285,Delayed
+7286,In Air
+7287,On Time
+729,Cancelled
+7294,Cancelled
+7295,In Air
+7296,Diverted
+730,Landed
+7305,In Air
+7306,On Time
+7308,Cancelled
+7309,In Air
+731,Boarding
+7311,In Air
+7312,Diverted
+7313,Delayed
+7314,Landed
+7315,Cancelled
+7316,Delayed
+7317,Boarding
+7318,In Air
+7319,Cancelled
+732,Landed
+7325,Diverted
+7326,Delayed
+7328,Cancelled
+7329,Diverted
+733,Delayed
+7331,Delayed
+7332,Diverted
+7334,Landed
+734,Cancelled
+7345,Landed
+7346,Diverted
+7347,Boarding
+7348,Landed
+7349,Cancelled
+735,Cancelled
+7351,Landed
+7352,In Air
+7353,On Time
+736,On Time
+737,On Time
+738,Landed
+739,Boarding
+740,Delayed
+741,Cancelled
+742,Landed
+743,Diverted
+744,In Air
+745,Delayed
+746,In Air
+747,In Air
+748,Delayed
+749,In Air
+75,On Time
+750,Boarding
+751,Delayed
+752,Cancelled
+753,Cancelled
+754,Cancelled
+755,On Time
+756,Cancelled
+757,Boarding
+758,On Time
+759,Cancelled
+76,Boarding
+760,On Time
+761,Cancelled
+762,Diverted
+763,In Air
+7639,On Time
+764,Landed
+765,On Time
+766,Landed
+767,Landed
+768,On Time
+7684,In Air
+769,Boarding
+77,On Time
+770,Boarding
+771,Diverted
+7713,Diverted
+7714,Boarding
+7715,In Air
+7716,Delayed
+7717,Landed
+7718,Delayed
+7719,Boarding
+772,Cancelled
+7721,Boarding
+7725,Cancelled
+773,Diverted
+7734,Delayed
+7737,Boarding
+7738,In Air
+7739,Delayed
+774,Diverted
+7743,Landed
+7744,Diverted
+7745,On Time
+7746,On Time
+775,Cancelled
+775A,Cancelled
+776,On Time
+776A,Delayed
+777,On Time
+778,Cancelled
+779,Landed
+78,Cancelled
+780,Landed
+781,On Time
+782,On Time
+783,Boarding
+784,Cancelled
+7842,On Time
+7843,Landed
+785,Landed
+786,Diverted
+787,On Time
+788,On Time
+789,On Time
+790,Boarding
+791,In Air
+792,In Air
+7921,In Air
+7922,Diverted
+7923,In Air
+7924,Boarding
+7925,Delayed
+7926,Diverted
+7927,Diverted
+7928,On Time
+7929,On Time
+793,Delayed
+7931,On Time
+7932,On Time
+7933,In Air
+7934,Cancelled
+7937,Cancelled
+7938,Cancelled
+794,Landed
+7941,Diverted
+7942,Landed
+7943,Cancelled
+7945,Boarding
+7946,In Air
+7947,Cancelled
+7948,Landed
+795,On Time
+7951,Diverted
+7952,On Time
+7958,Cancelled
+7959,Delayed
+796,Cancelled
+7961,On Time
+7962,Cancelled
+7963,Cancelled
+7964,Cancelled
+7965,Landed
+7966,Delayed
+7967,Delayed
+7968,Diverted
+797,In Air
+7971,Cancelled
+7972,Landed
+7973,On Time
+7974,Diverted
+7975,In Air
+7976,On Time
+7977,Cancelled
+7979,Boarding
+798,In Air
+7981,In Air
+7982,Cancelled
+7983,Boarding
+7984,Delayed
+7985,In Air
+7986,Boarding
+7987,Delayed
+7988,On Time
+7989,In Air
+799,Diverted
+7991,In Air
+7992,In Air
+7993,On Time
+7994,Diverted
+7995,In Air
+7996,In Air
+7997,Landed
+7998,Landed
+8001,Landed
+8002,On Time
+801,Cancelled
+8011,On Time
+8016,On Time
+8018,Boarding
+8019,Cancelled
+802,Boarding
+8024,On Time
+8025,Cancelled
+803,Diverted
+8032,Boarding
+8033,In Air
+804,Cancelled
+8046,Diverted
+8049,Cancelled
+805,Diverted
+8051,Boarding
+8054,Diverted
+8055,Boarding
+806,In Air
+8062,In Air
+807,Cancelled
+808,In Air
+809,Boarding
+810,Landed
+8104,Cancelled
+8105,Diverted
+811,Delayed
+812,Diverted
+8121,Boarding
+8123,In Air
+8124,Delayed
+8128,Cancelled
+8129,On Time
+812A,Landed
+813,Delayed
+814,Boarding
+8144,On Time
+8145,Boarding
+8146,Boarding
+8147,Landed
+815,Landed
+8152,Landed
+8153,On Time
+8154,Delayed
+8155,On Time
+8156,Diverted
+8157,Landed
+8158,Delayed
+8159,Cancelled
+816,Landed
+8160,On Time
+8161,In Air
+8163,Cancelled
+8164,Boarding
+8168,Landed
+8169,Landed
+817,Cancelled
+8170,Boarding
+8171,Delayed
+8172,On Time
+818,In Air
+8184,Cancelled
+8185,On Time
+8187,Delayed
+8188,Delayed
+8189,Diverted
+819,Cancelled
+8190,Cancelled
+8191,Cancelled
+8193,Landed
+8194,Diverted
+8195,Landed
+8196,Delayed
+820,In Air
+8203,Cancelled
+8204,In Air
+8209,Landed
+821,In Air
+8210,On Time
+8211,Diverted
+8212,In Air
+822,Landed
+823,Cancelled
+824,Landed
+825,In Air
+8250,Boarding
+8251,Diverted
+8255,Diverted
+8256,On Time
+8257,Boarding
+8258,Cancelled
+8259,Delayed
+826,Landed
+8260,Diverted
+8267,Landed
+827,Cancelled
+828,Delayed
+8287,Landed
+829,In Air
+830,Cancelled
+831,Diverted
+832,Cancelled
+833,Delayed
+834,Delayed
+835,Landed
+836,Diverted
+837,Landed
+8379,On Time
+838,In Air
+839,Boarding
+8391,In Air
+8392,Landed
+8393,On Time
+8394,Cancelled
+84,Cancelled
+840,Delayed
+841,Landed
+842,Delayed
+8429,On Time
+843,Landed
+844,Delayed
+844A,Boarding
+845,Cancelled
+846,Cancelled
+847,Delayed
+8473,Cancelled
+8475,Diverted
+8476,On Time
+8477,Cancelled
+848,In Air
+8480,Landed
+8481,Cancelled
+8482,Diverted
+8483,On Time
+849,Landed
+850,Diverted
+851,On Time
+852,On Time
+853,In Air
+854,Diverted
+855,Boarding
+856,Cancelled
+8561,Diverted
+8562,On Time
+857,Boarding
+858,On Time
+859,On Time
+860,Diverted
+861,On Time
+862,Diverted
+8623,Boarding
+8624,Diverted
+863,Boarding
+8637,Delayed
+8638,Boarding
+864,Diverted
+865,Diverted
+866,On Time
+8661,Delayed
+8663,On Time
+8664,On Time
+8665,Boarding
+867,Cancelled
+868,On Time
+869,Landed
+870,On Time
+8701,Cancelled
+8702,Delayed
+8704,Landed
+8705,Diverted
+8706,Delayed
+8709,Landed
+871,In Air
+8710,Cancelled
+8713,Landed
+8714,Diverted
+8717,In Air
+8718,Diverted
+8719,Cancelled
+872,Landed
+8720,In Air
+8721,Cancelled
+8722,Landed
+8723,On Time
+8729,On Time
+873,Delayed
+8730,Delayed
+8731,On Time
+8732,In Air
+8733,Landed
+8734,Landed
+874,Boarding
+8745,Landed
+8746,Boarding
+875,Delayed
+8751,Landed
+8752,Cancelled
+876,Boarding
+8767,In Air
+8768,Diverted
+8769,Landed
+877,Landed
+878,Landed
+879,Diverted
+880,Diverted
+881,In Air
+882,Diverted
+883,Diverted
+884,Boarding
+885,Landed
+886,In Air
+887,Boarding
+888,Diverted
+889,On Time
+890,Diverted
+8901,In Air
+8902,On Time
+8903,Landed
+8904,Landed
+8905,Diverted
+8906,Boarding
+8907,Delayed
+8908,In Air
+891,On Time
+8911,On Time
+8912,Boarding
+8913,On Time
+8914,On Time
+8915,Boarding
+892,Landed
+8920,Diverted
+893,Diverted
+8935,Diverted
+8936,Boarding
+8937,Boarding
+8938,Landed
+8939,Landed
+894,In Air
+895,Boarding
+8951,Boarding
+8952,Diverted
+8955,Boarding
+8956,Cancelled
+896,Boarding
+8961,Delayed
+8962,On Time
+8963,Landed
+8964,Landed
+8968,In Air
+8969,Diverted
+897,Landed
+8973,Diverted
+8974,Diverted
+8977,Boarding
+8978,Landed
+898,Cancelled
+899,In Air
+900,Landed
+901,On Time
+902,In Air
+903,In Air
+904,In Air
+905,In Air
+906,On Time
+907,Cancelled
+908,Landed
+909,Boarding
+910,Diverted
+911,In Air
+912,Diverted
+913,In Air
+914,Boarding
+915,Diverted
+916,Cancelled
+916A,Boarding
+917,Delayed
+918,Diverted
+919,Diverted
+919A,Cancelled
+920,Landed
+921,Delayed
+922,Landed
+923,Landed
+924,Boarding
+925,Boarding
+926,Diverted
+927,Landed
+928,Landed
+929,Landed
+930,Boarding
+931,Diverted
+932,In Air
+933,In Air
+934,Boarding
+935,Landed
+936,Cancelled
+937,Diverted
+938,On Time
+939,Diverted
+940,On Time
+941,On Time
+942,Landed
+943,Delayed
+944,Cancelled
+945,In Air
+946,On Time
+947,Delayed
+948,On Time
+949,On Time
+95,In Air
+950,Landed
+951,In Air
+952,Landed
+953,In Air
+954,Cancelled
+955,In Air
+956,Boarding
+957,Boarding
+958,Landed
+959,Diverted
+960,Boarding
+9603,Cancelled
+9604,Boarding
+9609,Cancelled
+961,In Air
+9610,Boarding
+9613,On Time
+9614,On Time
+9617,Landed
+9618,Cancelled
+962,Delayed
+9621,Landed
+9622,Delayed
+9627,Boarding
+9628,On Time
+963,In Air
+9639,Landed
+964,On Time
+9640,Boarding
+9643,On Time
+9644,Cancelled
+9645,Diverted
+9646,Boarding
+965,Boarding
+966,Diverted
+967,Delayed
+968,In Air
+9681,On Time
+969,Cancelled
+970,Diverted
+971,In Air
+9713,Cancelled
+9714,On Time
+972,Delayed
+973,Landed
+974,Delayed
+975,Diverted
+976,Boarding
+977,On Time
+978,In Air
+979,Delayed
+980,Cancelled
+9803,On Time
+9804,In Air
+9805,In Air
+9806,On Time
+9809,In Air
+981,Cancelled
+9810,In Air
+9813,Diverted
+9814,Landed
+9815,Delayed
+9816,In Air
+9817,Delayed
+9818,On Time
+9819,In Air
+982,On Time
+9820,Diverted
+9827,In Air
+9828,Boarding
+983,On Time
+9831,Boarding
+9832,Landed
+9833,Diverted
+9834,In Air
+9835,Cancelled
+9836,In Air
+9837,Cancelled
+9838,Diverted
+984,Diverted
+985,Cancelled
+986,Diverted
+987,Boarding
+988,Delayed
+989,On Time
+990,Boarding
+991,Delayed
+992,Diverted
+993,Boarding
+994,Cancelled
+995,Boarding
+996,On Time
+997,On Time
+998,Boarding
