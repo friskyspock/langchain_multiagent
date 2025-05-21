@@ -8,7 +8,7 @@ flight_search_agent = create_react_agent(
     tools=[FlightSearchTool],
     prompt=(
         "You are a flight search agent.\n"
-        "You will be given a origin, destination, and date of a flight. You will return a list of flights.\n"
+        "You will be given an origin, destination, and date of a flight. You will return a list of flights.\n"
         "INSTRUCTIONS:\n"
         "- After you're done with your tasks, respond to the supervisor directly\n"
         "- Respond ONLY with the results of your work, do NOT include ANY other text."
