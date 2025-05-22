@@ -17,5 +17,8 @@ supervisor = workflow.compile()
 
 if __name__ == "__main__":
     # print(supervisor.get_graph().draw_mermaid())
-    for chunk in supervisor.stream({"messages": [{"role": "user", "content": "What is the status of flight 1072?"}]}):
-        pretty_print_messages(chunk)
+    while True:
+        user_input = input("You: ")
+        for chunk in supervisor.stream({"messages": [{"role": "user", "content": user_input}]}):
+            # pretty_print_messages(chunk)
+            print(chunk['supervisor']['messages'][-1])
