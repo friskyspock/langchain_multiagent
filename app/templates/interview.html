@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Recruiter | Interview Session</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/interview.css">
+</head>
+<body>
+  <div class="interview-container">
+    <div class="interview-header">
+      <h1>AI Interview Session</h1>
+      <div id="candidateInfo">
+        <span id="candidateName">Loading candidate info...</span>
+        <span id="jobTitle">Loading position info...</span>
+      </div>
+    </div>
+    
+    <div class="orb" id="orb"></div>
+    
+    <div id="controls">
+      <button id="startBtn"><i class="fas fa-microphone"></i> Start Talking</button>
+      <button id="stopBtn" disabled><i class="fas fa-stop-circle"></i> Stop Talking</button>
+    </div>
+    
+    <div id="chatLog"></div>
+    
+    <div class="interview-footer">
+      <p>Recruter.ai</p>
+    </div>
+  </div>
+
+  <script src="/static/interview.js"></script>
+</body>
+</html>

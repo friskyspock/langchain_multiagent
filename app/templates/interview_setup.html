@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Recruiter | Interview Setup</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/static/base.css">
+  <link rel="stylesheet" href="/static/interview_setup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="setup-page">
+  <div class="container">
+    <div class="form-header">
+      <h1><i class="fas fa-clipboard-list"></i> Interview Setup</h1>
+      <p class="subtitle">Configure your AI-powered interview session</p>
+      <div class="header-accent"></div>
+    </div>
+
+    <form id="interviewSetupForm">
+      <div class="form-section">
+        <h2 class="section-title">Candidate Information</h2>
+
+        <div class="form-group">
+          <label for="candidateName">
+            <i class="fas fa-user"></i> Candidate Name
+          </label>
+          <input type="text" id="candidateName" name="candidateName" placeholder="Enter candidate's full name" required>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2 class="section-title">Position Details</h2>
+
+        <div class="form-group">
+          <label for="jobTitle">
+            <i class="fas fa-briefcase"></i> Job Title
+          </label>
+          <input type="text" id="jobTitle" name="jobTitle" placeholder="e.g., Senior Software Engineer" required>
+        </div>
+
+        <div class="form-group">
+          <label for="jobDescription">
+            <i class="fas fa-file-alt"></i> Job Description
+          </label>
+          <textarea id="jobDescription" name="jobDescription" placeholder="Describe the role, responsibilities, and requirements..." required></textarea>
+          <div class="form-hint">Include key responsibilities, required skills, and qualifications</div>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2 class="section-title">Interview Topics</h2>
+        <p class="section-description">Add specific topics you want the AI interviewer to cover</p>
+
+        <div class="form-group">
+          <div id="topicsContainer">
+            <div class="topic-input">
+              <div class="input-icon-wrapper">
+                <i class="fas fa-comment-dots input-icon"></i>
+                <input type="text" name="topics[]" placeholder="e.g., Current salary expectations" required>
+              </div>
+              <button type="button" class="remove-topic" title="Remove topic"><i class="fas fa-times"></i></button>
+            </div>
+          </div>
+          <button type="button" id="addTopicBtn">Add Another Topic</button>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" id="startInterviewBtn">
+          <i class="fas fa-play-circle"></i> Start Interview
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2023 Recruiter AI. All rights reserved.</p>
+  </footer>
+
+  <script src="/static/interview_setup.js"></script>
+</body>
+</html>

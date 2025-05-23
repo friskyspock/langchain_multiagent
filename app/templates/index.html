@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Recruiter | Voice Interview</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="app-header">
+      <h1 class="app-title">AI Recruiter</h1>
+      <p class="app-subtitle">Voice-powered interview assistant</p>
+    </div>
+
+    <div class="orb" id="orb"></div>
+
+    <div id="controls">
+      <button id="startBtn"><i class="fas fa-microphone"></i> Start Talking</button>
+      <button id="stopBtn" disabled><i class="fas fa-stop-circle"></i> Stop Talking</button>
+    </div>
+
+    <div id="chatLog"></div>
+  </div>
+
+  <script src="/static/voice-agent.js"></script>
+</body>
+</html>

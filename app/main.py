@@ -30,4 +30,6 @@ if __name__ == "__main__":
         user_input = input("You: ")
         for chunk in supervisor.stream({"messages": [{"role": "user", "content": user_input}]}):
             # pretty_print_messages(chunk)
-            print(chunk['supervisor']['messages'][-1])
+            if (ai_chunk := chunk.get('supervisor')):
+                if (ai_msg := ai_chunk['messages'][-1]) and isinstance(ai_msg, AIMessage):
+                    print(ai_msg.content)
