@@ -2,6 +2,7 @@ from supervisor_agent.agent import supervisor_agent
 from worker_agents.search_agent import flight_search_agent
 from worker_agents.status_agent import flight_status_agent
 from langgraph.graph import StateGraph, MessagesState, START, END
+from langchain_core.messages import AIMessage
 from pretty_print import pretty_print_messages
 
 workflow = StateGraph(MessagesState)
@@ -21,4 +22,6 @@ if __name__ == "__main__":
         user_input = input("You: ")
         for chunk in supervisor.stream({"messages": [{"role": "user", "content": user_input}]}):
             # pretty_print_messages(chunk)
-            print(chunk['supervisor']['messages'][-1])
+            if (ai_chunk := chunk.get('supervisor')):
+                if (ai_msg := ai_chunk['messages'][-1]) and isinstance(ai_msg, AIMessage):
+                    print(ai_msg.content)
