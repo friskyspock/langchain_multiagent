@@ -1,18 +1,27 @@
-from supervisor_agent.agent import supervisor_agent
-from worker_agents.search_agent import flight_search_agent
-from worker_agents.status_agent import flight_status_agent
-from langgraph.graph import StateGraph, MessagesState, START, END
+from supervisor_agent.agent import supervisor
+
 from pretty_print import pretty_print_messages
+from fastapi import FastAPI
+from fastapi.websockets import WebSocket, WebSocketDisconnect
 
-workflow = StateGraph(MessagesState)
-workflow.add_node("supervisor", supervisor_agent, destinations=("flight_search_agent", "flight_status_agent", END))
-workflow.add_node("flight_search_agent", flight_search_agent)
-workflow.add_node("flight_status_agent", flight_status_agent)
-workflow.add_edge(START, "supervisor")
-workflow.add_edge("flight_search_agent", "supervisor")
-workflow.add_edge("flight_status_agent", "supervisor")
+app = FastAPI()
 
-supervisor = workflow.compile()
+@app.websocket(path="/ws")
+async def audioCallWithAgent(websocket: WebSocket):
+    await websocket.accept()
+    try:
+        while True:
+            user_input = await websocket.receive_text()
+            async for chunk in supervisor.astream({"messages": [{"role": "user", "content": user_input}]}):
+                pass
+
+    except WebSocketDisconnect:
+        print(f"Client disconnected. Session ID: {session_id}")
+
+    except Exception as e:
+        print(f"Connection error: {str(e)}")
+        import traceback
+        traceback.print_exc()
 
 
 if __name__ == "__main__":
