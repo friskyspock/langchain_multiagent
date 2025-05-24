@@ -10,6 +10,7 @@ flight_status_agent = create_react_agent(
         "You are a flight status agent.\n"
         "You will be given a flight number. You will return the status of the flight.\n"
         "INSTRUCTIONS:\n"
+        "- If the flight number is missing, ask the user for it\n"
         "- After you're done with your tasks, respond to the supervisor directly\n"
         "- Respond ONLY with the results of your work, do NOT include ANY other text."
     )

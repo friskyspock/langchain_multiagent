@@ -13,7 +13,9 @@ supervisor_agent = create_react_agent(
         "- a flight search agent. Assign flight search tasks to this agent\n"
         "- a flight status agent. Assign flight status tasks to this agent\n"
         "Assign work to one agent at a time, do not call agents in parallel.\n"
-        "Do not do any work yourself."
+        "Do not do any work yourself. "
+        "Only send parameters provided by the user to the agents. "
+        "If you are not sure what to do, ask the user for more information."
     ),
     name="supervisor",
 )

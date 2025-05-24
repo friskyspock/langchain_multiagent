@@ -47,20 +47,44 @@ def row_to_flight_status(row: pd.Series) -> FlightStatus:
 
 @app.get("/flights", response_model=List[Flight])
 def get_all_flights(
-    origin: Optional[str] = Query(None),
-    destination: Optional[str] = Query(None),
-    date: Optional[str] = Query(None),
-    airline: Optional[str] = Query(None)
+    origin: str = Query(..., description="Origin airport code (required)"),
+    destination: str = Query(..., description="Destination airport code (required)"),
+    date: str = Query(..., description="Flight date in YYYY-MM-DD format (required)"),
+    airline: Optional[str] = Query(None, description="Airline name (optional)")
 ):
+    # Validate required parameters
+    if not origin or not destination or not date:
+        missing_fields = []
+        if not origin:
+            missing_fields.append("origin")
+        if not destination:
+            missing_fields.append("destination")
+        if not date:
+            missing_fields.append("date")
+
+        raise HTTPException(
+            status_code=400,
+            detail=f"Missing required fields: {', '.join(missing_fields)}. Please provide origin, destination, and date."
+        )
+
+    # Validate date format
+    try:
+        datetime.strptime(date, '%Y-%m-%d')
+    except ValueError:
+        raise HTTPException(
+            status_code=400,
+            detail="Invalid date format. Please use YYYY-MM-DD format."
+        )
+
     result = df.copy()
 
-    if origin:
-        result = result[result['origin'].str.lower() == origin.lower()]
-    if destination:
-        result = result[result['destination'].str.lower() == destination.lower()]
-    if date:
-        day = datetime.strftime(datetime.strptime(date, '%Y-%m-%d'), '%A')
-        result = result[result['dayOfWeek'].apply(lambda x: True if day in x.split(',') else False)]
+    # Apply filters (all required fields are guaranteed to have values)
+    result = result[result['origin'].str.lower() == origin.lower()]
+    result = result[result['destination'].str.lower() == destination.lower()]
+
+    day = datetime.strftime(datetime.strptime(date, '%Y-%m-%d'), '%A')
+    result = result[result['dayOfWeek'].apply(lambda x: True if day in x.split(',') else False)]
+
     if airline:
         result = result[result['airline'].str.lower() == airline.lower()]
 
