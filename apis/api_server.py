@@ -88,8 +88,8 @@ def get_all_flights(
     if airline:
         result = result[result['airline'].str.lower() == airline.lower()]
 
-    print(result)
-    return [row_to_flight(row) for _, row in result.iterrows()]
+    print(result.head())
+    return [row_to_flight(row) for _, row in result.head().iterrows()]
 
 @app.get("/flights/{flight_number}", response_model=Flight)
 def get_flight_by_number(flight_number: str):

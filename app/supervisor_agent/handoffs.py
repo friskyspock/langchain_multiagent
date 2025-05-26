@@ -25,12 +25,17 @@ def create_handoff_tool(*, agent_name: str, agent_description: str|None = None):
     return handoff_tool
 
 
+assign_to_input_validation_tool = create_handoff_tool(
+    agent_name="input_validation_agent",
+    agent_description="Validate if user input contains all required information for flight searches"
+)
+
 assign_to_flight_search_tool = create_handoff_tool(
-    agent_name="flight_search_agent", 
+    agent_name="flight_search_agent",
     agent_description="Search for flights"
 )
 
 assign_to_flight_status_tool = create_handoff_tool(
-    agent_name="flight_status_agent", 
+    agent_name="flight_status_agent",
     agent_description="Get the status of a flight"
 )
