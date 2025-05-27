@@ -1,7 +1,6 @@
-from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, TypedDict
 
-class SessionInfo(BaseModel):
+class SessionInfo(TypedDict):
     session_id: Optional[str]
     status: Optional[str]
     origin: Optional[str]
