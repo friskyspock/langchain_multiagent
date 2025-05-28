@@ -4,6 +4,8 @@ from llm import llm
 from worker_agents.search_agent import flight_search_agent
 from worker_agents.status_agent import flight_status_agent
 from langgraph.graph import StateGraph, MessagesState, START, END
+from langgraph.checkpoint.memory import MemorySaver 
+memory = MemorySaver() 
 
 supervisor_agent = create_react_agent(
     model=llm,
@@ -14,10 +16,9 @@ supervisor_agent = create_react_agent(
         "- a flight status agent. Assign flight status tasks to this agent\n"
         "\nCRITICAL RULES:\n"
         "1. NEVER assume or infer missing information (especially dates)\n"
-        "2. Only assign tasks when the user has provided ALL required information\n"
-        "3. If ANY required information is missing, ask the user to provide it\n"
-        "4. For flight searches: origin, destination, AND date are ALL required\n"
-        "5. For flight status: flight number is required\n"
+        "2. For flight searches: origin, destination, AND date are required\n"
+        "3. For flight status: flight number is required\n"
+        "4. You will be provided with a session ID. Send session ID to all agents\n"
         "\nAssign work to one agent at a time, do not call agents in parallel.\n"
         "Do not do any work yourself. "
         "Only send parameters explicitly provided by the user to the agents. "

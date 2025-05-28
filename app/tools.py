@@ -4,17 +4,48 @@ from langchain_core.callbacks import CallbackManagerForToolRun
 from langchain_core.tools import BaseTool, StructuredTool
 from langchain_core.tools.base import ArgsSchema
 from pydantic import BaseModel, Field
+import redis
+
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
 
 class FlightSearchToolInputs(BaseModel):
-    origin: str = Field(description="Origin city")
-    destination: str = Field(description="Destination city")
-    date: str = Field(description="Date of travel")
+    session_id: str
+    origin: Optional[str] = Field(description="Origin city. Pass NULL if not provided.")
+    destination: Optional[str] = Field(description="Destination city. Pass NULL if not provided.")
+    date: Optional[str] = Field(description="Date of travel. Pass NULL if not provided.")
 
 class FlightStatusToolInputs(BaseModel):
+    session_id: str
     flight_number: str = Field(description="Flight number")
     date: str = Field(description="Date of travel")
 
-def search_flights(origin: str, destination: str, date: str) -> str:
+def search_flights(session_id: str, origin: Optional[str], destination: Optional[str], date: Optional[str]) -> str:
+    missing_fields = []
+    if not origin:
+        if redis_client.hexists(session_id, "origin"):
+            origin = redis_client.hget(session_id, "origin").decode('utf-8')
+        else:
+            missing_fields.append("origin")
+    else:
+        redis_client.hset(session_id, "origin", origin)
+    if not destination:
+        if redis_client.hexists(session_id, "destination"):
+            destination = redis_client.hget(session_id, "destination").decode('utf-8')
+        else:
+            missing_fields.append("destination")
+    else:
+        redis_client.hset(session_id, "destination", destination)
+    if not date:
+        if redis_client.hexists(session_id, "date"):
+            date = redis_client.hget(session_id, "date").decode('utf-8')
+        else:
+            missing_fields.append("date")
+    else:
+        redis_client.hset(session_id, "date", date)
+
+    if len(missing_fields) > 0:
+        return f"Missing required fields: {', '.join(missing_fields)}. Please provide origin, destination, and date."
+    
     url = f"http://127.0.0.1:8000/flights?origin={origin}&destination={destination}&date={date}"
     try:
         response = requests.get(url)
@@ -34,7 +65,7 @@ FlightSearchTool = StructuredTool.from_function(
     return_direct=True
 )
 
-def get_flight_status(flight_number: str, date: str) -> str:
+def get_flight_status(session_id: str, flight_number: str, date: str) -> str:
     url = f"http://127.0.0.1:8000/flight-status/{flight_number}?date={date}"
     try:
         response = requests.get(url)

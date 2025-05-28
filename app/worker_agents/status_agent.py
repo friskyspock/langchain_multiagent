@@ -13,5 +13,6 @@ flight_status_agent = create_react_agent(
         "- If the flight number is missing, ask the user for it\n"
         "- After you're done with your tasks, respond to the supervisor directly\n"
         "- Respond ONLY with the results of your work, do NOT include ANY other text."
+        "- You will be provided with a session ID. Send session ID to tools."
     )
 )

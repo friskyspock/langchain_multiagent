@@ -11,17 +11,17 @@ from fastapi.websockets import WebSocket, WebSocketDisconnect
 from fastapi.encoders import jsonable_encoder
 from fastapi import UploadFile, File
 from elevenlabs import ElevenLabs
-import os
+from schemas import SessionInfo
+import os, redis
 from dotenv import load_dotenv
 from pydantic import BaseModel
 
 # Load environment variables
 load_dotenv()
-
-# Get ElevenLabs API key from environment
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
 
-client = ElevenLabs(
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
+elevenlabs_client = ElevenLabs(
     api_key=ELEVENLABS_API_KEY
 )
 
@@ -32,8 +32,6 @@ app = FastAPI()
 # Mount static files directory
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-session = {}
-
 @app.get("/", response_class=HTMLResponse)
 async def get_index_page(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
@@ -41,12 +39,16 @@ async def get_index_page(request: Request):
 @app.websocket(path="/ws")
 async def audioCallWithAgent(websocket: WebSocket):
     await websocket.accept()
-    session_id = uuid.uuid4()
+    session_id = str(uuid.uuid4())
+    config = {"configurable": {"thread_id": "1"}}
     print(f"Client connected. Session ID: {session_id}")
     try:
         while True:
             user_input = await websocket.receive_text()
-            async for chunk in supervisor.astream({"messages": [{"role": "user", "content": user_input}]}):
+            async for chunk in supervisor.astream({"messages": [
+                {"role": "user","content": user_input}, 
+                {"role": "system", "content": f"session_id: {session_id}"}
+                ]}):
                 pretty_print_messages(chunk, last_message=False)
                 if (ai_chunk := chunk.get('supervisor')):
                     if (ai_msg := ai_chunk['messages'][-1]) and isinstance(ai_msg, AIMessage):
@@ -72,7 +74,7 @@ async def transcribe_audio(inputs: TranscriptionInputs):
         audio_bytes = requests.get(inputs.file_link).content
 
         # Process with ElevenLabs API
-        result = client.speech_to_text.convert(
+        result = elevenlabs_client.speech_to_text.convert(
             model_id="scribe_v1",
             file=audio_bytes,
             language_code="en"
@@ -99,7 +101,7 @@ async def transcribe_audio_upload(file: UploadFile = File(...)):
         audio_bytes = await file.read()
 
         # Process with ElevenLabs API
-        result = client.speech_to_text.convert(
+        result = elevenlabs_client.speech_to_text.convert(
             model_id="scribe_v1",
             file=audio_bytes,
             language_code="en"
@@ -143,7 +145,7 @@ async def speak_text(payload: dict):
         text = payload["text"]
 
         # Use a more optimized model for faster response
-        audio_data = client.text_to_speech.convert(
+        audio_data = elevenlabs_client.text_to_speech.convert(
             voice_id="21m00Tcm4TlvDq8ikWAM",
             output_format="mp3_44100_128",  # Lower quality for faster response
             text=text,

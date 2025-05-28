@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 import pandas as pd
 from datetime import datetime
-import os
+import os, redis
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -52,6 +52,7 @@ def get_all_flights(
     date: str = Query(..., description="Flight date in YYYY-MM-DD format (required)"),
     airline: Optional[str] = Query(None, description="Airline name (optional)")
 ):
+    print("hitted all flights")
     # Validate required parameters
     if not origin or not destination or not date:
         missing_fields = []
@@ -100,9 +101,7 @@ def get_flight_by_number(flight_number: str):
 
 @app.get("/flight-status/{flight_number}", response_model=FlightStatus)
 def get_flight_status(flight_number: str):
-    """
-    Get the current status of a flight by its flight number.
-    """
+    print("hitted flight status")
     result = status_df[status_df["flightNumber"].str.lower() == flight_number.lower()]
     if result.empty:
         raise HTTPException(status_code=404, detail="Flight status not found")
